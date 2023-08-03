@@ -44,7 +44,9 @@ Crawls google results with five keywords and up to 20 results
 This can be performed multiple times as a random selection from the available keywords / snippets is used.
 
 After some calls the data can be aggregated in the findings table
+---
 php PhraseFinder.php store 2023-09-01 2023-09-02 google 
+---
 
 Results are then available in the WiFindings Table for classification by further modules or expert classification and storing the result in the type variable.
 
